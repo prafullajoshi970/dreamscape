@@ -7,11 +7,15 @@ body{
 }
 .navImg{
     height: 100px;
-    width:150px;
+    width:100px;
+    float:left;
     margin:auto;
-    position:sticky;
+   
     
   
+}
+.navbar-toggler{
+margin-right: 100px;
 }
 .navbar{
 
