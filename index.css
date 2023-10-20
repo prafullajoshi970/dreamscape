@@ -348,8 +348,8 @@ color: #071D21;
   background-color: #0a3036;
   
 }
-.nav-link{
-  width:400px;
+.nav-item{
+ 
   font-size: 10px
 }
 
@@ -386,11 +386,11 @@ color: #071D21;
 
 .navbar1 a{
   background-color: #071D21;
- width:70px;
+ width:100px;
   border-radius: 10px;
 }
 .navbar1 li{
-  width:70px;
+  width:80px;
 }
 .imglaptop{
   margin:auto
