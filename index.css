@@ -53,6 +53,7 @@ body{
     margin-top: 50px;
     margin-bottom: 30px;
     border-radius: 10px;
+    margin-left: 65px;
     height: 60px;
     width:200px;
     background: linear-gradient(45deg, #D0D041, #117650 );
@@ -62,9 +63,9 @@ body{
 
   }
   .btnsubmit{
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 30px;
-    height: 60px;
+    height: 80px;
     width:100px;
     background: linear-gradient(45deg, #D0D041, #117650 );
     color: #FEFEFE;
@@ -73,6 +74,7 @@ body{
   .imglaptop{
     height:230px;
     width: 365px;
+    margin-left: 30px;
     
   
   }
@@ -311,7 +313,7 @@ color: #071D21;
 }
 
 
-@media (min-width: 800px) and (max-width: 1290px)  {
+@media (min-width: 800px) and (max-width: 1400px)  {
   .navbar1{
     display: flex;
   width:100%
