@@ -38,7 +38,6 @@ body{
 .content{
     width: 80%;
     height: 100%;
-    margin-top: 30%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -74,7 +73,7 @@ body{
   .imglaptop{
     height:230px;
     width: 365px;
-    margin-left: 30px;
+    margin-left: 5px;
     
   
   }
@@ -252,6 +251,7 @@ margin-left: auto;
   justify-content: center;
   align-items: center;
  }
+ 
  #Partnerships img{
   width:200px;
   height:50px;
@@ -311,21 +311,70 @@ width:100%;
 margin-left:auto;
 color: #071D21;
 }
+.xd{
+  height:100%;
+  width:100%;
+  padding:5px;
+  font-size: x-small;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .contact{
+  height:400px;
+  width:90%;
+  margin:auto;
+  padding:5px;
+  font-size: 20px;
+ }
+ .valh3{
+  margin-left:45px
+ }
+.container,.card{
+  height:400px;
+  font-size:15px;
+}
 
-
-@media (min-width: 800px) and (max-width: 1400px)  {
+@media (min-width: 800px) and (max-width: 1600px)  {
   .navbar1{
     display: flex;
-  width:100%
+  width:100%;
+  background-color: #0a3036;
+  
+}
+  
    
- }
+ 
+ 
 
  .navImg{
   height: 100px;
   width:185px;
-  margin-left: 130px;
+  margin-left: 10%;
     
   
+}
+#Home{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   font-size: x-large;  
+   height:400px
+}
+
+.content{
+
+  align-items: center;
+  width:500px;
+  margin-left:30%;
+
+  
+}
+.btn{
+  width:50px;
+  height:30px;
+ margin-right: 110px;
 }
   
   
@@ -339,25 +388,27 @@ color: #071D21;
   width:70px;
 }
 .imglaptop{
-  margin-left: 35.5%;
+  margin:auto
 }
 .btn{
-  width:300px;
-  margin-left: 35%;
+  width:200px;
+  margin:auto
 }
 #About{
-  margin-left:10%
+ margin:auto
 }
 .cards123{
-  margin-left: 12%;
+ margin:auto;
+ width:60%
 }
 .cards123 h1{
   margin-left: 33%;
 
 }
 .workflowimg{
-  width:100%;
-  height:100%
+  width:60%;
+  height:30%;
+  margin: auto;
 
 }
 .advh{
@@ -370,15 +421,15 @@ color: #071D21;
 .leftimg{
   position: relative;
   width: 30px;
- top:145px;
-left:80px
+  top:150px;
+  left:105px;
 
 }
 .rightimg{
   position: relative;
   width: 30px;
-left:63%;
-bottom:30px;
+  left:64%;
+  bottom:30px;
 
 }
 .btn2{
@@ -410,5 +461,40 @@ margin-top: 30px;
   height:30px;
   width:100px
  }
+ .h1{
+  font-size: xx-large;
+ }
+ .xd{
+  height:400px;
+  width:90%;
+  margin:auto;
+  padding:10px;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .contact{
+  width: 60%;
+  font-size: large;
+ font-weight:bold
+ }
+ .valh3{
+  margin-left:110px
+ }
+ .container,.card{
+  height:500px;
+  width:400px;
+  
+}
+.card h3,.card-body{
+ 
+    font-size:23px;
+
+}
+.yoda h3,p{
+  font-size:23px;
+}
  
 }
