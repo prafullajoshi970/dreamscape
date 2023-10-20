@@ -54,15 +54,26 @@ body{
     margin-bottom: 30px;
     border-radius: 10px;
     height: 60px;
+    width:200px;
     background: linear-gradient(45deg, #D0D041, #117650 );
     color: #FEFEFE;
     border: none;
     
 
   }
+  .btnsubmit{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 60px;
+    width:100px;
+    background: linear-gradient(45deg, #D0D041, #117650 );
+    color: #FEFEFE;
+    border: none;
+   }
   .imglaptop{
     height:230px;
-    width: 355px;
+    width: 365px;
+    
   
   }
   #About{
@@ -322,7 +333,7 @@ color: #071D21;
   width:70px;
 }
 .imglaptop{
-  margin-left: 35%;
+  margin-left: 35.5%;
 }
 .btn{
   width:300px;
@@ -332,7 +343,7 @@ color: #071D21;
   margin-left:10%
 }
 .cards123{
-  margin-left: 20%;
+  margin-left: 12%;
 }
 .cards123 h1{
   margin-left: 33%;
@@ -350,4 +361,47 @@ color: #071D21;
   padding-left: 5%;
 }
 
+.leftimg{
+  position: relative;
+  width: 30px;
+ top:145px;
+left:80px
+
+}
+.rightimg{
+  position: relative;
+  width: 30px;
+left:63%;
+bottom:30px;
+
+}
+.btn2{
+  margin-left: 46%;
+}
+.cards123 img{
+  margin-top: 20px ;
+  margin-left: 30%;
+  
+}
+.top{
+  margin-top: 5%;
+}
+
+.footertags{
+  
+margin-top: 30px;
+ }
+ .contact h1,p{
+  
+  margin:auto
+ }
+ #Contact-us{
+  margin:auto
+ }
+ .btnsubmit{
+  background: linear-gradient(45deg, #D0D041, #117650 );
+  border: none;
+  height:30px;
+  width:100px
+ }
 }
